@@ -1,0 +1,21 @@
+.cis260specialgreen {
+  color:#16ed50;   
+}
+
+
+#cis-special-parent a {
+    color: bisque;
+    
+}
+
+
+#content p {
+    color:blue;
+}
+body {
+    background-color: lightblue;
+}
+
+div ul li {
+    color:red; 
+}
