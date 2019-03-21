@@ -1,21 +1,39 @@
 .cis260specialgreen {
-  color:#16ed50;   
+    color: #16ed50;
 }
 
 
 #cis-special-parent a {
     color: bisque;
-    
+
 }
 
 
 #content p {
-    color:blue;
+    color: blue;
 }
+
 body {
     background-color: lightblue;
 }
 
 div ul li {
-    color:red; 
+    color: red;
+}
+
+header { 
+display: flex;
+align-items: center
+/*    flex-direction: column*/
+}
+
+@media screen and (max-width: 40rem) {
+    .container,
+    header,
+    main,
+    footer {
+        flex-direction: column
+    }
+
+
 }
